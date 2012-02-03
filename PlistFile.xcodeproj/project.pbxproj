@@ -16,6 +16,8 @@
 		6E92CCA614DC0C18005E50DE /* WLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E92CCA514DC0C18005E50DE /* WLViewController.m */; };
 		6E92CCA914DC0C18005E50DE /* WLViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E92CCA714DC0C18005E50DE /* WLViewController.xib */; };
 		6E92CCB014DC0FAF005E50DE /* sample.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6E92CCAF14DC0FAF005E50DE /* sample.plist */; };
+		6E92CCB414DC17C6005E50DE /* StatesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E92CCB214DC17C6005E50DE /* StatesTableViewController.m */; };
+		6E92CCB514DC17C6005E50DE /* StatesTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E92CCB314DC17C6005E50DE /* StatesTableViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +35,9 @@
 		6E92CCA514DC0C18005E50DE /* WLViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WLViewController.m; sourceTree = "<group>"; };
 		6E92CCA814DC0C18005E50DE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/WLViewController.xib; sourceTree = "<group>"; };
 		6E92CCAF14DC0FAF005E50DE /* sample.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = sample.plist; sourceTree = "<group>"; };
+		6E92CCB114DC17C5005E50DE /* StatesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StatesTableViewController.h; sourceTree = "<group>"; };
+		6E92CCB214DC17C6005E50DE /* StatesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StatesTableViewController.m; sourceTree = "<group>"; };
+		6E92CCB314DC17C6005E50DE /* StatesTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StatesTableViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +90,9 @@
 				6E92CCA514DC0C18005E50DE /* WLViewController.m */,
 				6E92CCA714DC0C18005E50DE /* WLViewController.xib */,
 				6E92CC9914DC0C16005E50DE /* Supporting Files */,
+				6E92CCB114DC17C5005E50DE /* StatesTableViewController.h */,
+				6E92CCB214DC17C6005E50DE /* StatesTableViewController.m */,
+				6E92CCB314DC17C6005E50DE /* StatesTableViewController.xib */,
 			);
 			path = PlistFile;
 			sourceTree = "<group>";
@@ -154,6 +162,7 @@
 				6E92CC9D14DC0C17005E50DE /* InfoPlist.strings in Resources */,
 				6E92CCA914DC0C18005E50DE /* WLViewController.xib in Resources */,
 				6E92CCB014DC0FAF005E50DE /* sample.plist in Resources */,
+				6E92CCB514DC17C6005E50DE /* StatesTableViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,6 +176,7 @@
 				6E92CC9F14DC0C17005E50DE /* main.m in Sources */,
 				6E92CCA314DC0C17005E50DE /* WLAppDelegate.m in Sources */,
 				6E92CCA614DC0C18005E50DE /* WLViewController.m in Sources */,
+				6E92CCB414DC17C6005E50DE /* StatesTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
