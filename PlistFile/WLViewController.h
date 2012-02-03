@@ -10,4 +10,7 @@
 
 @interface WLViewController : UIViewController
 
+@property (nonatomic, retain) IBOutlet UILabel *titleLabel;
+
+- (IBAction)statesBtnPress:(id)sender ;
 @end
