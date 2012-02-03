@@ -22,13 +22,13 @@
 		6E92CC9214DC0C16005E50DE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		6E92CC9414DC0C16005E50DE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6E92CC9614DC0C16005E50DE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		6E92CC9A14DC0C16005E50DE /* PlistFile-Info.plist */ = {isa = PBXFileReference; path = "PlistFile-Info.plist"; sourceTree = "<group>"; };
+		6E92CC9A14DC0C16005E50DE /* PlistFile-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PlistFile-Info.plist"; sourceTree = "<group>"; };
 		6E92CC9C14DC0C17005E50DE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6E92CC9E14DC0C17005E50DE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		6E92CCA014DC0C17005E50DE /* PlistFile-Prefix.pch */ = {isa = PBXFileReference; path = "PlistFile-Prefix.pch"; sourceTree = "<group>"; };
-		6E92CCA114DC0C17005E50DE /* WLAppDelegate.h */ = {isa = PBXFileReference; path = WLAppDelegate.h; sourceTree = "<group>"; };
+		6E92CCA014DC0C17005E50DE /* PlistFile-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PlistFile-Prefix.pch"; sourceTree = "<group>"; };
+		6E92CCA114DC0C17005E50DE /* WLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WLAppDelegate.h; sourceTree = "<group>"; };
 		6E92CCA214DC0C17005E50DE /* WLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WLAppDelegate.m; sourceTree = "<group>"; };
-		6E92CCA414DC0C17005E50DE /* WLViewController.h */ = {isa = PBXFileReference; path = WLViewController.h; sourceTree = "<group>"; };
+		6E92CCA414DC0C17005E50DE /* WLViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WLViewController.h; sourceTree = "<group>"; };
 		6E92CCA514DC0C18005E50DE /* WLViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WLViewController.m; sourceTree = "<group>"; };
 		6E92CCA814DC0C18005E50DE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/WLViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
