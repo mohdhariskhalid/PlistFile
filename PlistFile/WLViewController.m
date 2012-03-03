@@ -7,7 +7,7 @@
 //
 
 #import "WLViewController.h"
-#import "StatesTableViewController.h";
+#import "StatesTableViewController.h"
 
 @implementation WLViewController
 @synthesize titleLabel;
@@ -19,6 +19,7 @@
 }
 
 - (void) dealloc {
+    [titleLabel release];
     [super dealloc];
 }
 #pragma mark - View lifecycle
@@ -44,6 +45,9 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    NSLog(@"%@",[[self readPlist:@"sample"] objectForKey:@"Title"]);
+    NSLog(@"List Of States%@",[[self readPlist:@"sample"] objectForKey:@"ListOfStates"]);
+    NSLog(@"State 1 = %@",[[[self readPlist:@"Sample"] objectForKey:@"ListOfStates"] objectAtIndex:0]);
     [titleLabel setText:[[self readPlist:@"sample"] objectForKey:@"Title"]];
 }
 
